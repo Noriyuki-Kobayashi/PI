@@ -29,7 +29,7 @@ namespace PICalc
 
             time_end = DateTime.Now;
             var difference = time_end.Subtract(time_start);
-            Console.WriteLine($"\n計算時間は {difference.TotalSeconds.ToString("#,#.##")} secです。\n");
+            Console.WriteLine($"\n計算時間は {difference.TotalSeconds.ToString("#,##0.##")} secです。\n");
             Console.ReadKey();
 
 
