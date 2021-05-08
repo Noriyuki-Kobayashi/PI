@@ -22,12 +22,13 @@ namespace PICalc
             DateTime time_start;
             DateTime time_end;
 
-            time_start = DateTime.Now;
-                        
-                string pi = PICalculator.Calculate(int_calc_count);
-                Console.WriteLine(PICalculator.Format(pi));
+            time_start = DateTime.Now;                          //計算時間の計測開始
+            string pi = PICalculator.Calculate(int_calc_count);
+            time_end = DateTime.Now;                            //計算時間の計測完了
 
-            time_end = DateTime.Now;
+            Console.WriteLine(PICalculator.Format(pi));
+            
+            
             var difference = time_end.Subtract(time_start);
             Console.WriteLine($"\n計算時間は {difference.TotalSeconds.ToString("#,##0.##")} secです。\n");
             Console.ReadKey();
