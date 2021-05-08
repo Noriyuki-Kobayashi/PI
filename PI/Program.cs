@@ -1,4 +1,4 @@
-﻿// Visual C# 円周率を求めるプログラムです。
+﻿// Visual C# 円周率を求めるプログラムです。 VIVOBOOKからPush
 
 
 using System;
