@@ -9,7 +9,7 @@ namespace PICalc
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             string calc_count;
             int int_calc_count;
