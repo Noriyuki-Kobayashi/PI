@@ -1,4 +1,5 @@
 ﻿// Visual C# 円周率を求めるプログラムです。2021/5/8
+// Visual Studio 2022にアップデート
 
 
 using System;
